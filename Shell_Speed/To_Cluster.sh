@@ -42,4 +42,4 @@ echo -e "${Green}${files_folders[@]} ${Color_Off}"
 # Change one directory down to get into other submodule
 cd ..
 
-# scp -r "${files_folders[@]}" $loc:$path_to_folder
+scp -r "${files_folders[@]}" $loc:$path_to_folder
