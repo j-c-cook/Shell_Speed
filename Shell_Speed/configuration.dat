@@ -1,0 +1,13 @@
+# Jack C. Cook
+# Thursday, December 24, 2020 
+
+# Configuration file for variables used in Shell_Speed bash scripts
+
+
+Cowboy_UserName=cowboy_user_name_here
+Pete_UserName=pete_user_name_here
+
+# declare an array variable
+# List all file names and directories you want moved
+# Note: To_Cluster.sh always looks one directory down
+declare -a files_folders=("a.txt" "b.txt" "c.txt")
