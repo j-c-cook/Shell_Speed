@@ -22,7 +22,7 @@ if [ "$clusterName" == "Cowboy" -o "$clusterName" == "C" -o "$clusterName" == "c
 	name="Cowboy"
 # if the files are to be transferred to Pete
 elif [ "$clusterName" == "Pete"  -o "$clusterName" == "P" -o "$clusterName" == "p" ]; then
-	echo "The files will be transferred to Pete."
+	echo -e "The files will be transferred to ${Green}Pete${Color_Off}."
 	loc="$Pete_UserName@pete.hpc.okstate.edu"
 	name="Pete"
 else 
@@ -32,7 +32,7 @@ fi
 
 # Reqeust input for the folder the files will be moved into
 read -p "Enter file path for $name destination: " path_to_folder
-echo "The file(s) will be moved to $path_to_folder on $name"
+echo -e "The file(s) will be moved to $path_to_folder on ${name}"
 
 echo "The location is $loc"
 
