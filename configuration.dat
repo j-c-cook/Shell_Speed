@@ -10,4 +10,4 @@ Pete_UserName=pete_user_name_here
 # declare an array variable
 # List all file names and directories you want moved
 # Note: To_Cluster.sh always looks one directory down
-declare -a files_folders=("example.txt" "example/")
+declare -a files_folders=("continuousloop.sh" "InputFiles/" "src/" "output/" "SLURM_Array_Batch.slurm" "SLURM_Array_Bigmem.slurm" "libs/" "include/" "CMakeLists.txt" "build.sh" "configuration.dat")
